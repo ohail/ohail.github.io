@@ -6,16 +6,27 @@
 
 
 
-
-
-
-
 .contact-form {
     padding-bottom : 3em;
 }
 
+.logo-head {
+    float : left;
+    width : 100%;
+}
 
+.logo-image {
+    width: 100px;
+    height : 100px;    
+}
 
+.logo-title {
+   display:inline-block; 
+   margin-left : .5em; 
+   height : 1.5em; 
+   margin-top : .25em; 
+   vertical-align: top;
+}
 
 
 
