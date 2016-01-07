@@ -1,0 +1,325 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+body {
+  background-color: #eee;
+}
+
+#logo-header {
+  height : 70px;
+}
+
+#intro-block.jumbotron {
+  margin-bottom : 0;
+  background : transparent url('../images/hero-image.jpg') no-repeat right top fixed;
+  background-size: cover;
+}
+
+.text-banner {
+  margin : 2rem 0 1rem 0;
+  padding : 1em 0;
+  background-color : rgba(0,0,0,0.7);
+  color : rgba(255,255,255,0.75);
+}
+
+.text-banner a:hover{
+  color : #257ac4;
+}
+
+.text-banner a.btn:hover{
+  color : white;
+}
+
+.text-banner h2 {
+  color : white;
+}
+
+#contact-container {
+ background-color: #fff;
+}
+
+.contact-form {
+    padding-bottom : 3em;
+}
+
+.logo-head {
+    float : left;
+    width : 100%;
+    margin-top : 1em;
+}
+
+.logo-image {
+    width: 60px;
+    height : 60px;    
+}
+
+.logo-title {
+   display:inline-block; 
+   margin-left : .5em; 
+   height : 1.5em; 
+   margin-top : .25em; 
+   vertical-align: top;
+}
+
+
+footer.footer {
+  border-top : 1px solid #ccc;
+}
+
+.footer .container {
+  padding : 1em 30px 3em 30px;
+  color : #666;
+  font-style: italic;
+}
+
+/* Original Theme */
+
+
+
+body {
+  background-color : #f5f5f5;
+}
+
+header.navbar {
+  margin-bottom : 0;
+}
+
+header#top, 
+.dropdown-menu {
+  background-color: #fbfbfb;
+}
+
+header#top a, 
+#footer nav a {
+  color : #414141;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight : bold;
+}
+
+header#top .navbar-nav a, 
+#footer nav a {
+  font-size : 1.3em;
+}
+
+header a.navbar-brand {
+  padding : 10px 15px 0 15px;
+}
+
+a.navbar-brand h1 {
+  color : #414141;
+  width : 170px;
+  height : 52px;
+  text-indent: -9999999em;
+  overflow : hidden;
+}
+
+a.navbar-brand h1 {
+  background: url("../images/ohail-logo-type.png") no-repeat scroll center left / contain  transparent
+}
+
+
+.svg a.navbar-brand h1 {
+  background: url("../images/ohail-logo-type.svg") no-repeat scroll center left / contain transparent;
+}
+
+
+a.navbar-brand h1 {
+  color : #7B7B7B;
+  margin : 0;
+  padding : 0;
+  font-size : 1.2em;
+  font-style: italic;
+  text-transform: capitalize;
+}
+
+header .navbar-nav > li > a:hover {
+  background-color: #fff;
+}
+
+.navbar-header .navbar-toggle {
+  border-color : #414141;
+}
+
+.navbar-header .navbar-toggle .icon-bar {
+  background-color: #414141;
+}
+
+#page-header {
+  border-top : 1px solid #e3e3e3;
+}
+
+#page-header h2 {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight : bold;
+}
+
+#page-header h2 a {
+  text-decoration : none;
+  color : #000;
+}
+
+#page-header h2 a:hover {
+  color : #666;
+}
+
+#page-header .revision-buttons {
+  padding-top : 1.25em;
+}
+
+#page-header .revision-buttons .edit-button {
+  color : #337ab7;
+}
+
+#main h1, #main h2, #main h3, #main h4, #main h5, #main h6 {
+  font-family: 'Titillium Web', sans-serif;
+  margin-top : 2em;
+}
+
+#main h1 {
+  margin : 0;
+  padding : 0;
+}
+
+#main h2 {
+  border-bottom : 1px solid #E8E8E8;
+}
+
+#main {
+  background-color : #fff;
+  padding : 1em 0 2em 0;
+  border : 1px solid #E3E3E3;
+  border-width : 1px 0;
+}
+
+.page-header {
+  padding : 0;
+}
+
+/* posts index */
+.post > h3.title {
+  position: relative;
+  padding-top: 10px; }
+
+.post > h3.title span.date {
+  position: absolute;
+  right: 0;
+  font-size: 0.9em; }
+
+.post > .more {
+  margin: 10px 0;
+  text-align: left; }
+
+/* post-full*/
+.post-full .date {
+  margin-bottom: 20px;
+  font-weight: bold; }
+
+/* tag_box */
+.tag_box {
+  list-style: none;
+  margin: 0;
+  overflow: hidden; }
+
+.tag_box li {
+  line-height: 28px; }
+
+.tag_box li i {
+  opacity: 0.9; }
+
+.tag_box.inline li {
+  float: left; }
+
+.tag_box a {
+  padding: 3px 6px;
+  margin: 2px;
+  background: #eee;
+  color: #555;
+  border-radius: 3px;
+  text-decoration: none;
+  border: 1px dashed #cccccc; }
+
+.tag_box a span {
+  vertical-align: super;
+  font-size: 0.8em; }
+
+.tag_box a:hover {
+  background-color: #e5e5e5; }
+
+.tag_box a.active {
+  background: #57A957;
+  border: 1px solid #4c964d;
+  color: #FFF; }
+
+
+.resource-table {
+  border-top : .5em #A6A6A6 solid;
+}
+
+.resource-table tr td:nth-child(1) {
+  background-color: #F0F7FA !important;
+}
+
+.resource-table tr td:nth-child(1),
+.response-table tr td:nth-child(1), 
+.request-table tr td:nth-child(1) {
+  width : 20%;
+  font-weight : bold;
+}
+
+.response-table code, 
+.request-table code {
+  color : #001F75;
+}
+
+.request-table tr td:nth-child(1) code {
+ color : #427300; 
+}
+
+.request-table tr td:nth-child(1) code.field-url {
+ color : #000 
+}
+
+.response-table tr td:nth-child(2), 
+.request-table tr td:nth-child(2) {
+  width : 40%;
+}
+
+.response-table th, 
+.request-table th {
+  background-color: #E8E8E8;
+}
+
+.tab-content {
+  margin-bottom : 7em;
+}
+
+#toc-container {
+  border : 1px solid #ccc;
+  margin : 0 0 1em 1em;
+  padding : .5em;
+  background-color: #F5F5F5;
+}
+
+#toc-container h2 {
+  margin-top : .25em;
+  font-size : 1em;
+  border-bottom : none;
+}
+
+#toc-container ul {
+  padding-left : 1.5em;
+}
+
+#footer {
+  padding : 1em 0 3em 0;
+}
+
+@media (min-width: 1200px) {
+  #toc-container {
+    float: right;
+    width : 25%;
+  }
+}

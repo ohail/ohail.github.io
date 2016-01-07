@@ -1,0 +1,42 @@
+# Site wide configuration
+title: oHail
+description:
+url: 
+production_url: //ohail.org
+
+#Github Repo
+repo_name: ohail.github.io
+branch: gh-pages
+org_name: ohail
+
+# Jekyll configuration
+permalink: pretty
+markdown: kramdown
+highlighter: pygments
+
+exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "node_modules", "Gruntfile.js", "package.json"]
+
+gems:
+  - jekyll-redirect-from
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "page"
+
+
+# All Jekyll-Bootstrap specific configurations are namespaced into this hash
+#
+JB :
+  version : 0.3.0
+
+  # Settings for analytics helper
+  # Set 'provider' to the analytics provider you want to use.
+  # Set 'provider' to false to turn analytics off globally.
+  #        
+  analytics :
+    provider : google 
+    google : 
+        tracking_id : 'UA-2433158-16'
